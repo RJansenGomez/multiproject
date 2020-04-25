@@ -1,0 +1,15 @@
+group 'com.rjansen.musche.user'
+version '0.0.1'
+
+jacoco {
+    reportsDir = file("$buildDir/jacoco")
+}
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        csv.enabled false
+        html.destination file("${buildDir}/user/jacocoHtml")
+    }
+}
+
+

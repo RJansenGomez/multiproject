@@ -1,0 +1,6 @@
+rootProject.name = 'MultiProjectExample'
+include 'user-service'
+include 'booking-service'
+include 'restaurant-service'
+include 'library'
+
